@@ -25,7 +25,7 @@ let scoreNumber3 = Number(score5)
 console.log("Type of score5 boolean value is converted to number:", typeof scoreNumber3)
 console.log("But the value of score5 boolean true is 1:", scoreNumber3)
 
-// Converted to Number
+/* ********* Converted to Number ****** */
 // "33" => 33
 // "33abc" => NaN
 // true => 1; false => 0
@@ -44,13 +44,42 @@ let isBooleanNo2 = Boolean(booleanNo2)
 console.log(isBooleanNo2)
 
 
-// Converted to Boolean
+/* **** Converted to Boolean ***** */
 // 1 => true; 0 => false
 // "" => false
 // "string" => true
 
-// Coverted to String
+/* ******* Coverted to String ****** */
 let number = 33
 
 let numberToString = String(number)
 console.log(typeof numberToString);
+
+// ******************************************* Operations ********************************************* //
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+/* Arthimetic Operations */
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(3**3) 3 power 3
+//  console.log(2%3)
+// console.log(2/2)
+
+// console.log(1 + "2") number + string
+// console.log("1" + 2) string + number
+// console.log("1" + 2 + 3) if first number is string then all the following numbers is treated as string
+// console.log(1 + 2 + "3") 
+
+// console.log( (3 + 2) * 4 + 3); paranthesis is calculated first
+
+// console.log(+true) 
+
+/* *** precedence operator Prefix and Postfix*/
+let gameCounter = 100
+console.log(gameCounter++)
+console.log(++gameCounter)
