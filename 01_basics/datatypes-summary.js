@@ -24,17 +24,17 @@ a = 3;
 console.log(a); // Output of a is = 3
 console.log(b); // Output of b is = 5 
 
-const score = 100
-const gameName = "Video game"
+const dataNumber = 100
+const dataString = "Video game"
 
 const isLoggedIn = false
-const outsideTemp = null
-let userEmail;
+const dataNull = null
+let dataUndefined;
 
 const id = Symbol('123')
-const anotherId = Symbol('123')
+const dataSymbol = Symbol('123')
 
-console.log(id === anotherId);
+console.log(id === dataSymbol);
 
 const bigNumber = 3456543576654356754n
 
@@ -43,7 +43,7 @@ const bigNumber = 3456543576654356754n
 
 // Array, Objects, Functions
 
-const heros = ["shaktiman", "naagraj", "doga"];
+const dataArray = ["shaktiman", "naagraj", "doga"];
 // Object is any Key:value pair within curly braces
 let myObj = {
     name: "hitesh",
@@ -54,6 +54,6 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.table([typeof score, typeof gameName, typeof isLoggedIn, typeof outsideTemp, typeof userEmail, typeof anotherId, typeof bigNumber, typeof heros, typeof myObj, typeof myFunction])
+console.table([typeof dataNumber, typeof dataString, typeof isLoggedIn, typeof dataNull, typeof dataUndefined, typeof dataSymbol, typeof bigNumber, typeof dataArray, typeof myObj, typeof myFunction])
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
